@@ -1,0 +1,232 @@
+body{
+font-family: 'Titillium Web', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  direction:ltr;
+  background-image: url('../images/gb-body.jpg');
+  background-size: cover;
+}
+
+.section{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+ background: #f7f7f7;
+}
+
+.container{
+  width:980px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom:0px;
+  box-sizing: border-box;
+}
+/***************************************** properities of hero section********************************************/
+.headerSec {
+  background:#94acb3;
+  text-align: center;
+  padding-bottom: -60px;
+  border-bottom:  2px solid #ffe600;
+}
+/***************************************** properities of menu section********************************************/
+.menuSec{
+  margin-top: -16px;
+}
+
+nav{
+  width: 100%;
+  height: auto;
+}
+
+.menu ul{
+  padding:0px;
+  text-align: center;
+
+}
+
+.menu ul li{
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color:#a6bcbc;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 18px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.menu ul li a:hover,
+.menu ul li a:active{
+border-bottom:1px dotted #ffe600;
+padding-bottom: -20px;
+}
+
+.imgDiv{
+  margin: 3px -85px;
+}
+
+.img{
+  text-align: center;
+  margin-right:30px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.parDesc{
+  width: 360px;
+  height: 200px;
+  background:white;
+  margin-top: -400px;
+  margin-left: 50px;
+}
+
+.parDesc h3,
+.parDesc p
+{
+  color:#94acb3;
+}
+
+.parDesc h3{
+  font-size: 30px;
+}
+
+.parDesc p{
+  font-size: 16px;
+}
+
+.yellow{
+  margin-top: 160px;
+}
+
+/***************************************** properities of second section********************************************/
+.secondSec {
+  background: #f5f5cf;
+  padding-bottom: -10px;
+  border-bottom:  2px solid #ffe600;
+}
+
+.desc{
+  width: 45%;
+  height:auto;
+  float: left;
+}
+
+.images{
+  width: 55%;
+  height:auto;
+  float: right;
+}
+
+.photo{
+  width:218px;
+  height:auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: -10px;
+}
+
+.par{
+  color:#919189;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.h3{
+  font-size: 16px;
+  text-align: center;
+  background: #94acb3;
+  color: #ffe600;
+  width:218px;
+  height: 40px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: -19px;
+}
+
+.gride{
+  width:218px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 20px;
+  float: left;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/***************************************** properities of footer section********************************************/
+.footerSec{
+  margin-top: 700px;
+  margin-bottom: -30px;
+  background: #ffffff;
+  border-top:  2px solid #ffe600;
+}
+
+.menueDiv{
+  width:50%;
+  height: auto;
+  float:right;
+  margin-right:-180px;
+}
+
+.copyRight{
+  width:50%;
+  height: auto;
+  float:left;
+}
+
+.newPar{
+  font-size: 11px;
+  color:#c8c8c8;
+}
+
+.menue {
+  list-style-type: none;
+}
+.menue li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.menue li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.copyRight a{
+  text-decoration: none;
+  font-size: 11px;
+  color:#c8c8c8;
+}
+
+.copyRight a:hover{
+  text-decoration: underline;
+}
+
+.iconShape{
+  width: 30px;
+  height: 30px;
+  background:#ffe600;
+  border-radius: 50%;
+  line-height: 30px;
+  color:#94acb3 ;
+  margin-left: -10px;
+}
+
+.iconShape:hover{
+  color:#ffe600;
+  background:#94acb3;
+}
+
+.fab ,
+.fas{
+  margin-left: 4px;
+}
